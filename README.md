@@ -13,7 +13,7 @@ source("BrAPIProvider.R")
 pheno_provider <- BrapiBms$new(url="your_url")
 pheno_provider$login(username="your_username", password="your_password")
 
-geno_provider = BrapiGigwa$new(url="your_url")
+geno_provider <- BrapiGigwa$new(url="your_url")
 geno_provider$login(username="your_username", password="your_password")
 
 
